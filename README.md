@@ -1,2 +1,3 @@
-# calculate-zawarudo
-Calculator made by Neutrovertido
+## 🧮 WebCalculator 
+
+made by __Neutrovertido__

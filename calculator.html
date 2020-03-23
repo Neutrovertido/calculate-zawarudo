@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="icon" href="img/calculator.png" type="image/gif">
+    <script src="js/calculator.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Calculator</h1>
+        <hr>
+        <div class="nav">
+            <a href="#" onclick="aunNo()">Editar</a>
+            <a href="#" onclick="aunNo()">Opciones</a>
+            <a href="#" onclick="aunNo()">Configuracion</a>
+            <a href="#" onclick="aunNo()">Acerca De</a>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <form name="pant">
+                <input type="textview" name="textview" value="0">
+            </form>
+            <div class="keyboard">
+                <input type="button" value="C" onclick="limpiar()">
+                <input type="button" value="." onclick="insertar('.')">
+                <input type="button" value="<" onclick="borrar()">
+                <input type="button" value="+" onclick="insertar('+')">
+                <input type="button" value="7" onclick="insertar('7')">
+                <input type="button" value="8" onclick="insertar('8')">
+                <input type="button" value="9" onclick="insertar('9')">
+                <input type="button" value="-" onclick="insertar('-')">
+                <input type="button" value="4" onclick="insertar('4')">
+                <input type="button" value="5" onclick="insertar('5')">
+                <input type="button" value="6" onclick="insertar('6')">
+                <input type="button" value="*" onclick="insertar('*')">
+                <input type="button" value="1" onclick="insertar('1')">
+                <input type="button" value="2" onclick="insertar('2')">
+                <input type="button" value="3" onclick="insertar('3')">
+                <input type="button" value="/" onclick="insertar('/')">
+                <input type="button" value="0" onclick="insertar('0')">
+                <input type="button" value="=" onclick="igual()">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
